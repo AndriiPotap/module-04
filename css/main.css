@@ -1,0 +1,219 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    width: 1170px;
+    /* margin: 0 auto; */
+   margin-top: -7px;
+    /* margin-left: 364px;  */
+    height: 160px;
+    /* background-color: aquamarine; */
+}
+
+.logo{
+    display: block;
+    float: left;
+    margin-right: 566px;
+    /* font-size: 32px; */
+}
+.logo_text{
+    display: block;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        line-height: 1.067;
+        padding-left: 28px;
+        padding-top: 40px;
+        font-size: 30px;
+        line-height: 1.067;
+    
+}
+.logo_text::first-letter{
+    color: #1abc9c;
+    font-weight: 700;
+}
+
+.menu li{
+    display: block;
+    float: left;
+    list-style-type: none;
+    padding-right: 30px;
+    margin-top: 44px;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    color: #000;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.786;
+        
+}
+a:hover{
+    color: #1abc9c;
+}
+
+.top_text, .bot_text{
+    text-align: center;
+    text-decoration: black;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif; 
+    color: rgb(81, 81, 81);
+}
+.top_text::after{
+    display: block;
+    content: '';
+    height: 7px;
+    width: 164px;
+    background-color: rgb(26, 188, 156);
+    margin: 20px auto;
+    margin-bottom: 92px;
+}
+.bot_text::after{
+    display: block;
+    content: '';
+    height: 7px;
+    width: 164px;
+    background-color: rgb(26, 188, 156);
+    margin: 20px auto;
+}
+  
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.conteiner{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+  .section_top > .blok1, .blok2, .blok3, .blok4, .blok5, .blok6, .blok7, .blok8{
+    float: left;
+    padding-left: 30px;
+    font-size: 0;
+    margin-bottom: 32px;
+  }
+  .blok5, .blok6, .blok7, .blok8{
+      padding-bottom: 60px;
+  }
+  .a{
+      cursor: pointer;
+  }
+
+.a:hover .name{
+    background: #1abc9c;
+  }
+.a:hover .price{
+    background: #7fd9c7;
+}
+
+  .name{
+      float: left;
+      width: 200px;
+      height: 40px;
+      background-color: #323232;
+      padding-top: 10px;
+      padding-left: 16px;
+  }
+  .text_top{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 900; 
+     color: white;
+     font-size: 18px;
+     text-transform: uppercase;
+  }
+
+  .price{
+      float: left;
+      width: 54px;
+      height: 40px;
+      background-color: #8c8c8c;
+      padding-top: 10px;
+      padding-left: 16px;
+  }
+  .price_top{
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .top_img {
+      width: 254px;
+      height: 282px;
+  }
+  .section_bot > .bot_blok1, .bot_blok2, .bot_blok3{
+    float: left;
+    padding-left: 30px;
+      }
+    
+    .bot_img{
+        width: 348px;
+        height: 262px;
+        margin-bottom: 4px;
+      }
+    .under_bot1{
+        width: 342px;
+        height: 40px;
+    }
+    .under_bot_1_1{
+        width: 352px;
+        height: auto;
+    }
+    .button{
+        width: 160px;
+        height: 50px;
+    }
+   .bot_text{
+       padding-bottom: 60px;
+   }
+    .under_bot1{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: rgb(85, 82, 82);
+    line-height: 1.444;
+    margin-bottom: 46px;
+    }
+    .under_bot1::after{
+    display: block;
+    content: '';
+    background-color: rgb(78, 198, 171);
+    width: 136px;
+    height: 3px;
+    margin-top: 10px;
+    }
+
+    .under_bot_1_1{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(85, 82, 82);
+    line-height: 1.857; 
+    margin-bottom: 14px;
+    }
+.button_text{
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        color: #f6fbfa;
+        line-height: 1.625;
+      }
+      
+.button{
+    width: 160px;
+    height: 50px;
+    background-color: #4ec6ab;
+    border-radius: 5%;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 46px;
+}
